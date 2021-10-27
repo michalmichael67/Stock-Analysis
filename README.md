@@ -1,15 +1,15 @@
 # Stock-Analysis
 Week 2- utilize new VBA skills to conduct stock market analysis
 
-##Project Overview
+## Project Overview
 
-##Results
-###Code Explanation
+## Results
+### Code Explanation
 
-###Performace Differences
+### Performace Differences
 
 
-##Summary
-###Advantages and Disadvatages of Refactoring Code
+## Summary
+### Advantages and Disadvatages of Refactoring Code
 
-###Applications to the original VBA Script
+### Applications to the original VBA Script
