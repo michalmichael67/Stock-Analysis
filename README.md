@@ -59,7 +59,7 @@ In this section I am going to go through my code to better explain how I refacto
 
 ![calculation_storage.png](CodeScreenshots/calculation_storage.png) 
 
-### Performace Differences
+### Code Performace Differences
 
 There were large differences in performance between the original and refactored code. The refactored code was almost 7x faster! 
 
@@ -69,7 +69,30 @@ Original Code                     | Refactored Code
 :--------------------------------:|:--------------------------------:
 ![VBA_Orig_Code_2017.png](SupportingScreenshots/VBA_Orig_Code_2017.png) | ![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png) 
 
+As you can see here, the original code took .5117 seconds to run and the refactored code only took .0703 seconds to run!
+
+2018:
+
+Original Code                     | Refactored Code
+:--------------------------------:|:--------------------------------:
+![VBA_Orig_Code_2018.png](SupportingScreenshots/VBA_Orig_Code_2018.png) | ![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png) 
+
+As you can see here, the original code took .5195 seconds to run and the refactored code only took .0742 seconds to run!
+
+### Stock Performace Differences
+
+If you look in the Return column, you can see that in general, all of the stocks did better in 2017 than in 2018. If you were to focus on TERP, the stock that had a loss in 2017, it went down by 7.2% which is a smaller loss than the average loss in 2018(26.8%). Beyond the return, there seemd to be a general increase in volume amongst these stocks between 2017 and 2018. ALthough this is not a true trend for each individual stock, by looking at the grouping we can see that the total volume across the group increased, perhaps signaling a higher interest in sustainable companies. 
+
 ## Summary
-### Advantages and Disadvatages of Refactoring Code
+### Advantages of Refactoring Code
+*Your code can become more efficient 
+*Your code can become easier to logically follow
+*Your code can use less memory
+
+### Disadvantages of Refactoring Code
+*Bugs can possibly be introduced into the code
+*It is difficult to refactor code unless you truly understand the goal of the code
+*It can take too much time
 
 ### Applications to the original VBA Script
+In our case, refactoring the code led to a more effecient code. Although not necessary for the size of our dataset, if this code was applied to a larger dataset, the increased effeciency would matter. By refactoring, I added in more notes and was able to think through the process more slowly which would hopefully help others better understand my code. On the other hand, it took a lot time and debugging to get the refactored code to work. 
