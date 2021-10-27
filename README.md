@@ -61,6 +61,13 @@ In this section I am going to go through my code to better explain how I refacto
 
 ### Performace Differences
 
+There were large differences in performance between the original and refactored code. The refactored code was almost 7x faster! 
+
+2017:
+
+Original Code                     | Refactored Code
+:--------------------------------:|:--------------------------------:
+![VBA_Orig_Code_2017.png](SupportingScreenshots/VBA_Orig_Code_2017.png) | ![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png) 
 
 ## Summary
 ### Advantages and Disadvatages of Refactoring Code
