@@ -85,14 +85,14 @@ If you look in the Return column, you can see that in general, all of the stocks
 
 ## Summary
 ### Advantages of Refactoring Code
-*Your code can become more efficient 
-*Your code can become easier to logically follow
-*Your code can use less memory
+* Your code can become more efficient 
+* Your code can become easier to logically follow
+* Your code can use less memory
 
 ### Disadvantages of Refactoring Code
-*Bugs can possibly be introduced into the code
-*It is difficult to refactor code unless you truly understand the goal of the code
-*It can take too much time
+* Bugs can possibly be introduced into the code
+* It is difficult to refactor code unless you truly understand the goal of the code
+* It can take too much time
 
 ### Applications to the original VBA Script
 In our case, refactoring the code led to a more effecient code. Although not necessary for the size of our dataset, if this code was applied to a larger dataset, the increased effeciency would matter. By refactoring, I added in more notes and was able to think through the process more slowly which would hopefully help others better understand my code. On the other hand, it took a lot time and debugging to get the refactored code to work. 
